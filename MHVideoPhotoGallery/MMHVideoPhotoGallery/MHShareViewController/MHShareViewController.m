@@ -874,7 +874,9 @@
                                                                       [weakSelf addDataToDownloadArray:imageURL];
                                                                   }];
             }else if (item.image) {
-                [self addDataToDownloadArray:item.image];
+                MHImageURL *imageURLMH = [[MHImageURL alloc] initWithURL:item.URLString
+                                                                 image:item.image];
+                [self addDataToDownloadArray:imageURLMH];
             }else{
                 
                 [SDWebImageManager.sharedManager downloadImageWithURL:[NSURL URLWithString:item.URLString] options:SDWebImageContinueInBackground progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
