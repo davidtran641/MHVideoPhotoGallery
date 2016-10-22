@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCE50708F0B1B954A1D43543 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BEA0714A525E3C516EBDBD /* libPods.a */; };
+		2E0A60E61DEA4C757E230CF2 /* libPods-MHVideoPhotoGalleryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1F8C944B378EA626E72DE /* libPods-MHVideoPhotoGalleryTests.a */; };
+		A75A7975F026556134A15680 /* libPods-MHVideoPhotoGallery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A5748089075002151EC281 /* libPods-MHVideoPhotoGallery.a */; };
 		F514263518911D8E0091E3DF /* 707-albums-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F514263318911D8E0091E3DF /* 707-albums-selected.png */; };
 		F514263618911D8E0091E3DF /* 707-albums-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F514263418911D8E0091E3DF /* 707-albums-selected@2x.png */; };
 		F514263918911D920091E3DF /* 705-photos-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F514263718911D920091E3DF /* 705-photos-selected.png */; };
@@ -108,9 +109,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48BEA0714A525E3C516EBDBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7034C256C78A0FAB4D812A2B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		A1831E23B84EF67E23139C0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		215215194E212E9C17CB7362 /* Pods-MHVideoPhotoGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHVideoPhotoGalleryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHVideoPhotoGalleryTests/Pods-MHVideoPhotoGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
+		42F1F8C944B378EA626E72DE /* libPods-MHVideoPhotoGalleryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHVideoPhotoGalleryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4F2C6DA875178E325B4C82 /* Pods-MHVideoPhotoGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHVideoPhotoGallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHVideoPhotoGallery/Pods-MHVideoPhotoGallery.release.xcconfig"; sourceTree = "<group>"; };
+		76A5748089075002151EC281 /* libPods-MHVideoPhotoGallery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHVideoPhotoGallery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8339F78A3C370C77EDBB1509 /* Pods-MHVideoPhotoGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHVideoPhotoGallery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHVideoPhotoGallery/Pods-MHVideoPhotoGallery.debug.xcconfig"; sourceTree = "<group>"; };
 		F514263318911D8E0091E3DF /* 707-albums-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "707-albums-selected.png"; sourceTree = "<group>"; };
 		F514263418911D8E0091E3DF /* 707-albums-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "707-albums-selected@2x.png"; sourceTree = "<group>"; };
 		F514263718911D920091E3DF /* 705-photos-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "705-photos-selected.png"; sourceTree = "<group>"; };
@@ -236,6 +239,7 @@
 		F5EE8DA51890393D002E5734 /* testIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testIcon@2x.png"; sourceTree = "<group>"; };
 		F5F8DA2B18B6A6A100EB25F2 /* MHPresenterImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHPresenterImageView.h; path = MMHVideoPhotoGallery/MHGalleryPresenterImageView/MHPresenterImageView.h; sourceTree = "<group>"; };
 		F5F8DA2C18B6A6A100EB25F2 /* MHPresenterImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHPresenterImageView.m; path = MMHVideoPhotoGallery/MHGalleryPresenterImageView/MHPresenterImageView.m; sourceTree = "<group>"; };
+		F666E2FBA49589CAD3F68C7F /* Pods-MHVideoPhotoGalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHVideoPhotoGalleryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHVideoPhotoGalleryTests/Pods-MHVideoPhotoGalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +252,7 @@
 				F53F924617EB008100A9FE6A /* CoreGraphics.framework in Frameworks */,
 				F53F924817EB008100A9FE6A /* UIKit.framework in Frameworks */,
 				F53F924417EB008100A9FE6A /* Foundation.framework in Frameworks */,
-				CCE50708F0B1B954A1D43543 /* libPods.a in Frameworks */,
+				A75A7975F026556134A15680 /* libPods-MHVideoPhotoGallery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +263,20 @@
 				F53F926317EB008100A9FE6A /* XCTest.framework in Frameworks */,
 				F53F926517EB008100A9FE6A /* UIKit.framework in Frameworks */,
 				F53F926417EB008100A9FE6A /* Foundation.framework in Frameworks */,
+				2E0A60E61DEA4C757E230CF2 /* libPods-MHVideoPhotoGalleryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64EBA583430CC00734798E3D /* Pods */ = {
+		7043C9CFC2B5E7A35FBE7D6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7034C256C78A0FAB4D812A2B /* Pods.debug.xcconfig */,
-				A1831E23B84EF67E23139C0E /* Pods.release.xcconfig */,
+				8339F78A3C370C77EDBB1509 /* Pods-MHVideoPhotoGallery.debug.xcconfig */,
+				5D4F2C6DA875178E325B4C82 /* Pods-MHVideoPhotoGallery.release.xcconfig */,
+				F666E2FBA49589CAD3F68C7F /* Pods-MHVideoPhotoGalleryTests.debug.xcconfig */,
+				215215194E212E9C17CB7362 /* Pods-MHVideoPhotoGalleryTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -281,7 +288,7 @@
 				F53F926817EB008100A9FE6A /* MHVideoPhotoGalleryTests */,
 				F53F924217EB008100A9FE6A /* Frameworks */,
 				F53F924117EB008100A9FE6A /* Products */,
-				64EBA583430CC00734798E3D /* Pods */,
+				7043C9CFC2B5E7A35FBE7D6F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,7 +310,8 @@
 				F53F924517EB008100A9FE6A /* CoreGraphics.framework */,
 				F53F924717EB008100A9FE6A /* UIKit.framework */,
 				F53F926217EB008100A9FE6A /* XCTest.framework */,
-				48BEA0714A525E3C516EBDBD /* libPods.a */,
+				76A5748089075002151EC281 /* libPods-MHVideoPhotoGallery.a */,
+				42F1F8C944B378EA626E72DE /* libPods-MHVideoPhotoGalleryTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -608,12 +616,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F53F927217EB008100A9FE6A /* Build configuration list for PBXNativeTarget "MHVideoPhotoGallery" */;
 			buildPhases = (
-				75DDE8B2C1B33F486A5B8488 /* Check Pods Manifest.lock */,
+				E720347AFBF2F743E9DA9C83 /* [CP] Check Pods Manifest.lock */,
 				F53F923C17EB008100A9FE6A /* Sources */,
 				F53F923D17EB008100A9FE6A /* Frameworks */,
 				F53F923E17EB008100A9FE6A /* Resources */,
-				0C519C9D844EB0B45067DB4C /* Embed Pods Frameworks */,
-				87746AA85625C06CC49A954C /* Copy Pods Resources */,
+				8D592968C8A0972468E7ADB7 /* [CP] Embed Pods Frameworks */,
+				E13B1D414164691C769A1EFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -628,9 +636,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F53F927517EB008100A9FE6A /* Build configuration list for PBXNativeTarget "MHVideoPhotoGalleryTests" */;
 			buildPhases = (
+				30626FB2018700BCCC7B0E20 /* [CP] Check Pods Manifest.lock */,
 				F53F925D17EB008100A9FE6A /* Sources */,
 				F53F925E17EB008100A9FE6A /* Frameworks */,
 				F53F925F17EB008100A9FE6A /* Resources */,
+				A26B1D17764CDBF0CBD0D4DA /* [CP] Embed Pods Frameworks */,
+				BC4A934EE225A48BDEE2580D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -652,7 +663,7 @@
 				ORGANIZATIONNAME = "Mario Hahn";
 				TargetAttributes = {
 					F53F923F17EB008100A9FE6A = {
-						DevelopmentTeam = 22DEN472RY;
+						DevelopmentTeam = NHZT2CCM9Y;
 					};
 					F53F926017EB008100A9FE6A = {
 						TestTargetID = F53F923F17EB008100A9FE6A;
@@ -748,29 +759,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C519C9D844EB0B45067DB4C /* Embed Pods Frameworks */ = {
+		30626FB2018700BCCC7B0E20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		75DDE8B2C1B33F486A5B8488 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -778,19 +774,79 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		87746AA85625C06CC49A954C /* Copy Pods Resources */ = {
+		8D592968C8A0972468E7ADB7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHVideoPhotoGallery/Pods-MHVideoPhotoGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26B1D17764CDBF0CBD0D4DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHVideoPhotoGalleryTests/Pods-MHVideoPhotoGalleryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4A934EE225A48BDEE2580D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHVideoPhotoGalleryTests/Pods-MHVideoPhotoGalleryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E13B1D414164691C769A1EFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHVideoPhotoGallery/Pods-MHVideoPhotoGallery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E720347AFBF2F743E9DA9C83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -949,12 +1005,13 @@
 		};
 		F53F927317EB008100A9FE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7034C256C78A0FAB4D812A2B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8339F78A3C370C77EDBB1509 /* Pods-MHVideoPhotoGallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHZT2CCM9Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHVideoPhotoGallery/MHVideoPhotoGallery-Prefix.pch";
 				INFOPLIST_FILE = "MHVideoPhotoGallery/MHVideoPhotoGallery-Info.plist";
@@ -969,12 +1026,13 @@
 		};
 		F53F927417EB008100A9FE6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1831E23B84EF67E23139C0E /* Pods.release.xcconfig */;
+			baseConfigurationReference = 5D4F2C6DA875178E325B4C82 /* Pods-MHVideoPhotoGallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NHZT2CCM9Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHVideoPhotoGallery/MHVideoPhotoGallery-Prefix.pch";
 				INFOPLIST_FILE = "MHVideoPhotoGallery/MHVideoPhotoGallery-Info.plist";
@@ -989,6 +1047,7 @@
 		};
 		F53F927617EB008100A9FE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F666E2FBA49589CAD3F68C7F /* Pods-MHVideoPhotoGalleryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHVideoPhotoGallery.app/MHVideoPhotoGallery";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1012,6 +1071,7 @@
 		};
 		F53F927717EB008100A9FE6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215215194E212E9C17CB7362 /* Pods-MHVideoPhotoGalleryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHVideoPhotoGallery.app/MHVideoPhotoGallery";
 				FRAMEWORK_SEARCH_PATHS = (
